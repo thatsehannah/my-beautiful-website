@@ -63,6 +63,10 @@
   @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%];
 }
 
+@utility hero-heading {
+  @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+}
+
 body {
   font-family: "General Sans", sans-serif;
   width: 100dvw;
