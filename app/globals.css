@@ -55,6 +55,14 @@
   }
 }
 
+@utility mask-clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0, 100%);
+}
+
+@utility absolute-center {
+  @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%];
+}
+
 body {
   font-family: "General Sans", sans-serif;
   width: 100dvw;
