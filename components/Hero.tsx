@@ -93,19 +93,22 @@ const Hero = () => {
   );
 
   //animation for scrolling past the hero section
+  //"Animate from the values given in the from() to whatever is defined in set()"
   useGSAP(() => {
     gsap.set("#video-frame", {
+      //defines what #video-frame will animate TO
       clipPath: "polygon(14% 0, 72% 0, 88% 90%, 0 95%)",
       borderRadius: "0 0 40% 10%",
     });
     gsap.from("#video-frame", {
+      //defines what #video-frame will animate FROM
       clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
       borderRadius: "0 0 0 0",
       ease: "power1.inOut",
       scrollTrigger: {
-        trigger: "#video-frame",
-        start: "center center",
-        end: "bottom center",
+        trigger: "#video-frame", //element to watch for scrolling
+        start: "center center", //animation starts when the center of the #video-frame element aligns with the center of the viewport
+        end: "bottom center", //animation finishes when the bottom of the #video-frame element aligns with the center of the viewport
         scrub: true,
       },
     });
