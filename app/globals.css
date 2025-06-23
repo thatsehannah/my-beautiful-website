@@ -107,6 +107,10 @@
   @apply bg-black rounded-lg border;
 }
 
+@utility border-hsla {
+  @apply border border-white/20;
+}
+
 body {
   font-family: "General Sans", sans-serif;
   width: 100dvw;
