@@ -14,7 +14,7 @@ const About = () => {
     const clipAnimation = gsap.timeline({
       scrollTrigger: {
         trigger: "#clip",
-        start: "center center", //animation starts when the center of the #video-frame element aligns with the center of the viewport
+        start: "center center", //animation starts when the center of the #clip element aligns with the center of the viewport
         end: "+=800 center", //the scroll animation ends 800 pixels after the start point, maintaining the same vertical alignment
         scrub: 0.5, //syncs the animation progress with the scroll position (0.5 second easing delay between the scroll and the animation catching up)
         pin: true, //enables the element to stay in place while the user scrolls

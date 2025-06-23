@@ -103,6 +103,10 @@
   animation-delay: calc(var(--animation-order) * 0.1s);
 }
 
+@utility floating-nav {
+  @apply bg-black rounded-lg border;
+}
+
 body {
   font-family: "General Sans", sans-serif;
   width: 100dvw;
