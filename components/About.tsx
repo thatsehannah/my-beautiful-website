@@ -59,8 +59,7 @@ const About = () => {
             src='/img/about.webp'
             alt='background'
             className='absolute left-0 top-0 size-full object-cover'
-            width={500}
-            height={500}
+            fill
           />
         </div>
       </div>
