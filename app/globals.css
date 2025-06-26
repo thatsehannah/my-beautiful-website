@@ -56,7 +56,7 @@
 }
 
 @utility mask-clip-path {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0, 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 @utility absolute-center {
@@ -147,7 +147,7 @@
 }
 
 @utility sword-man-clip-path {
-  clip-path: polygon(16% 0%, 89% 15%, 75% 100%, 0 97%);
+  clip-path: polygon(16% 0%, 89% 15%, 75% 100%, 0% 97%);
 }
 
 body {
