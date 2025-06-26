@@ -71,6 +71,7 @@ const Story = () => {
                   src='/img/entrance.webp'
                   alt='entrance'
                   fill
+                  quality={100}
                   className='object-contain rounded-lg'
                 />
               </div>
